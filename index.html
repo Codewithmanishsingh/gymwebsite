@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANISH'S FITNESS</title>
+    
+</head>
+<link rel="stylesheet" href="css/style.css" >
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url('https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+        background-size: cover;
+        background-position-x: 100%;
+        background-repeat: no-repeat;
+    }
+    header{
+        color: white;
+    }
+    .left{
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid red;
+    }
+    
+    .mid{
+       display: block;
+       width: 33%;
+       margin: 20px auto;
+       border: 2px solid red;
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        border: 2px solid red;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        font-size: 25px;
+        color:white;
+        display: inline-block;
+    }
+    .navbar li a{
+        padding: 34px 23px;
+        color: white;
+        text-decoration: none;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gymlogo.png" alt="manish">
+            <div>Manish Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+         i am right
+        </div>
+    </header>
+
+
+    <!-- <div class="left">i am left</div>
+    <div class="right">i am right</div> -->
+    <!-- <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>  -->
+</body>
+</html>
